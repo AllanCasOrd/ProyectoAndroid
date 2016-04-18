@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lag.proyectoandroid.MainActivity"
+    android:background="@drawable/fondof"
+    android:padding="0dip"
+    android:paddingLeft="0dip"
+    android:paddingTop="0dip">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saludo"
+        android:layout_marginTop="31dp"
+        android:textColor="#fafafa"
+        android:textSize="30dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/angry_btn"
+
+        android:text="@string/entrar"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:background="#4fc3f7"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
